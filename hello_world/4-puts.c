@@ -1,8 +1,3 @@
-/*
- * File: 4-puts.c
- * Auth: sallebruno  <9392@holbertonschool.com>
- */
-
 #include <stdio.h>
 
 /**
