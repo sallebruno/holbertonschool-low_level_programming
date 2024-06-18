@@ -9,7 +9,7 @@ void print_alphabet(void)
 {
 	char letter = 'a';
 
-	while (letter != '{')
+	while (letter <= '{')
 	{
 		_putchar(letter);
 		letter++;
