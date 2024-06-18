@@ -7,12 +7,9 @@
 
 void print_alphabet(void)
 {
-	char letter = 'a';
-
-	while (letter <= '{')
-	{
-		_putchar(letter);
-		letter++;
-	}
-	_putchar('\n');
+    char c;
+    for (c = 'a'; c <= 'z'; c++)
+    {
+        putchar(c);
+    }
 }
