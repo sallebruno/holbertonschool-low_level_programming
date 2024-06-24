@@ -1,5 +1,6 @@
 #include "main.h"
 #include "length.c"
+#include <stdio.h>
 /**
  * _strcat - Concatenates two strings
  * @src: Source string to concatenate
