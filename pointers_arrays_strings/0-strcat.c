@@ -1,6 +1,7 @@
 #include "main.h"
 #include "length.c"
 #include <stdio.h>
+#include <string.h>
 
 /**
  * _strcat - Concatenates two strings
@@ -20,7 +21,7 @@ char *_strcat(char *dest, char *src)
 
     lengthdest = length(dest);
 
-    for (i = 0; src[i]!= '\0'; i++)
+    for (i = 0; src[i] != '\0'; i++)
     {
         dest[lengthdest + i] = src[i];
     }

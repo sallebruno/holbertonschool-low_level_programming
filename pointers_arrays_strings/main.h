@@ -1,3 +1,6 @@
+#ifndef MAIN_H
+#define MAIN_H
+
 int _putchar(char c);
 void reset_to_98(int *n);
 void swap_int(int *a, int *b);
@@ -26,3 +29,6 @@ char *_strpbrk(char *s, char *accept);
 char *_strstr(char *haystack, char *needle);
 void print_chessboard(char (*a)[8]);
 void print_diagsums(int *a, int size);
+void simple_print_buffer(char *buffer, unsigned int size);
+
+#endif /* MAIN_H */
