@@ -15,15 +15,15 @@ char *_strcat(char *dest, char *src)
         return (dest);
     }
 
-    int lengthdest = length(dest) + 1;
+    int lengthdest = length(dest);
     int i = 0;
 
-    while (src[i] != '\0')
+    while (src[i]!= '\0')
     {
-        dest[lengthdest + i - 1] = src[i];
+        dest[lengthdest + i] = src[i];
         i++;
     }
-    dest[lengthdest + i - 1] = '\0';
+    dest[lengthdest + i] = '\0';
 
     return (dest);
 }
