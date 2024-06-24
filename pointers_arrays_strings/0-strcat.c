@@ -21,7 +21,14 @@ char *_strcat(char *dest, char *src)
 
     lengthdest = length(dest);
 
-    for (i = 0; src[i] != '\0'; i++)
+    /* Add a space if the destination string is not empty and does not end with a space */
+    if (lengthdest > 0 && dest[lengthdest - 1]!= ')
+    {
+        dest[lengthdest] = ';
+        lengthdest++;
+    }
+
+    for (i = 0; src[i]!= '\0'; i++)
     {
         dest[lengthdest + i] = src[i];
     }
