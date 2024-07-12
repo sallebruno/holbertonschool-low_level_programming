@@ -2,16 +2,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/**
- * main - check the code
- *
- * Return: Always 0.
- */
+char *_strdup(char *str);
+
 int main(void)
 {
     char *s;
 
-    s = _strdup("Holberton School!");
+    s = _strdup("Duplicated");
     if (s == NULL)
     {
         printf("failed to allocate memory\n");
