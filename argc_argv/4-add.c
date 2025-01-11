@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
 	{
 		for (digit = 0; argv[num][digit]; digit++)
 		{
-			if (argv[num][digit] < '0' || argv[num][digit] < '9')
+			if (argv[num][digit] < '0' || argv[num][digit] > '9')
 			{
 				printf("Error\n");
 				return (1);
