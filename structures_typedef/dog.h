@@ -40,7 +40,7 @@ void print_dog(struct dog *d);
  * @name: The name of the dog
  * @age: The age of the dog
  * @owner: The owner of the dog
- * 
+ *
  * Return: A pointer to the new dog struct
  */
 dog_t *new_dog(char *name, float age, char *owner);
